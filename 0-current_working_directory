@@ -1,7 +1,2 @@
 #!/bin/bash
-
-LOCAL_DIR=$(pwd) # Here is your current path, e.g: /home/youruser
-
-A_FULL_PATH_THAT_IS_IS_THE_SAME_PLACE_AS_YOU=$(pwd)/theotherbinaryyouwanttorun.sh # If what you want to run is at the same location as your shell script
-
-A_EXECUTABLE_SOMEHERE=$(/usr/local/bin/executable.sh)
+pwd
